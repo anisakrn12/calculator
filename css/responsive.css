@@ -3,10 +3,10 @@
     .calculator-grid {
       min-height: 90vh;
         /* Banyaknya kolom (columns) dalam grid */
-        grid-template-columns: repeat(4, 60px);
+        grid-template-columns: repeat(4, 50px);
  
         /* Banyaknya (rows) dalam grid */
-        grid-template-rows: minmax(100px, auto) repeat(5, 60px);
+        grid-template-rows: minmax(100px, auto) repeat(5, 50px);
     
         /* Menambahkan grid gap untuk memberi jarak antar grid cell */
         grid-gap: 5px;
